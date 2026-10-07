@@ -1,0 +1,160 @@
+
+:root {
+    --primary-color: #4b2d53;
+    --secondary-color: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+}
+
+.overview{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.navigazione{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.navigazione a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigazione a:hover {
+    color: #fbf9fc;
+    text-decoration: none;
+}
+
+.navigazione:link {
+    text-decoration: none;
+    color: white;
+}
+.nome {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.listaGiocatori {
+    list-style-type: none;
+}
+
+.divisore{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-tabella {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tabella-roster {
+    width: 90%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabella-roster td {
+    padding: 12px 15px;
+    border: 1px solid #ccc; 
+}
+
+.tabella-roster th {
+    background-color: #4b2d53; 
+    font-size: 1.1rem;
+}
+
+.box-avviso {
+    border: 2px solid #2b0933; 
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px; 
+}
+
+.titolo-avviso {
+    margin-top: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.team1 {
+    color: #fbf9fc;
+}
+
+.team2 {
+    color: #fbf9fc;
+}
+
+.team3 {
+    color: #fbf9fc;
+}
+
+.testo-contatti{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.box-contatti{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.logoGruppo{
+    display: flex;
+    justify-self: center;
+    padding: 40px 10px 10px 10px;
+}
+
+.container-tabella {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+}
+
+.img2{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding: 100px;
+}
+
+.img1{
+     width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding: 50px;
+}
+.img3{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding: 50px;
+}
+
+.container-immagini {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+.img4{
+    display: flex;
+   justify-self: center;
+
+}
+
