@@ -25,6 +25,13 @@ body {
     
 }
 
+.Iframe1{
+    width: 100%;
+    height: 800px;
+    border: none;
+    overflow: hidden;
+}
+
 .navigazione a{
     text-decoration: none;
     color: white;
