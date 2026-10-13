@@ -173,6 +173,20 @@ body {
     border: 1px solid #ccc;
 }
 
+.imgMascot1 {
+    position: absolute;   /*serve a posizionare l'immagine rispetto al contenitore a cui e dentro*/
+    right: 10px;    
+    width: 150px; 
+    height: 150px;
+}
+
+.imgMascot2 {
+    position: absolute;
+    left: 10px;
+    width: 150px; 
+    height: 150px;
+}
+
 .container-immagini {
     display: flex;
     justify-content: center;
