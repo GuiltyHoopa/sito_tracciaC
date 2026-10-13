@@ -1,10 +1,12 @@
-
 :root {
     --primary-color: #4a2355;
     --secondary-color: #ffffff;
     --thirthiary-color: #b9b9b9;
     --fourth-color: #f0f0f0;
     --transition-color: #706e6e;
+    --table-header-color: #d160d4;
+    --table_background-color: #412b7e;
+    --table_background-color2: #8a57db;
 }
 
 body {
@@ -20,6 +22,14 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
+.corpo-tabella:nth-child(even) {
+    background-color: var(--table_background-color);
+}
+
+.corpo-tabella:nth-child(odd) {
+    background-color: var(--table_background-color2);
+}
+
 .navigazione{
     display: flex;
     justify-content: space-evenly;
@@ -29,9 +39,9 @@ body {
     border-radius: 5px;
     transition: background-color 0.3s ease;
     
-    
-}
 
+
+}
 .Iframe1{
     width: 100%;
     height: 800px;
@@ -88,9 +98,11 @@ body {
 }
 
 .tabella-roster th {
-    background-color: #4b2d53; 
-    font-size: 1.1rem;
+    background-color: var(--table-header-color); 
+    padding: 12px 15px;
+    border: 1px solid #ccc;
 }
+
 
 .box-avviso {
     border: 2px solid #2b0933; 
@@ -144,21 +156,21 @@ body {
 .img2{
     width: 200px;
     height: 300px;
-    margin: 20px;
-    padding: 100px;
+    margin: 40px;
+    border: 1px solid #ccc;
 }
 
 .img1{
      width: 200px;
     height: 300px;
-    margin: 20px;
-    padding: 50px;
+    margin: 40px;
+    border: 1px solid #ccc;
 }
 .img3{
-    width: 200px;
+    width: 300px;
     height: 300px;
-    margin: 20px;
-    padding: 50px;
+    margin: 40px;
+    border: 1px solid #ccc;
 }
 
 .container-immagini {
@@ -173,4 +185,3 @@ body {
    justify-self: center;
 
 }
-
